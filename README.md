@@ -1,0 +1,3 @@
+# Fakelib
+
+This does nothing.
