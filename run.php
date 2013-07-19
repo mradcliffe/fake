@@ -8,7 +8,7 @@ $loader = require 'vendor/autoload.php';
 $loader->register();
 
 use Fake\Fake;
-use Theme\Theme;
+use Fake\Theme\Theme;
 
 $fake = new Fake(array(1, 2, 3));
 
