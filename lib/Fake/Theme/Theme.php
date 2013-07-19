@@ -38,7 +38,7 @@ class Theme {
     return $o;
   }
 
-  protected function tabs($depth = 0) {
+  public function tabs($depth = 0) {
     $o = '';
     for ($i = 0; $i < $depth; $i++) {
       $o .= "\t";
