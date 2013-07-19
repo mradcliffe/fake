@@ -24,5 +24,11 @@ interface FakeInterface {
    */
   public function analyze();
 
+  /**
+   * Return the object data variable directly.
+   *
+   * @return array
+   *   The array of fake data.
+   */
   public function getData();
 }
