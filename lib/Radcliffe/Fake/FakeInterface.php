@@ -4,7 +4,7 @@
  * FakeInterface.php
  */
 
-namespace Fake;
+namespace Radcliffe\Fake;
 
 /**
  * FakeInterface
