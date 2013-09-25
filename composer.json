@@ -5,7 +5,9 @@
   },
   "autoload": {
     "psr-0": {
-      "Fake\\": "lib/"
+      "Radcliffe\\": "lib",
+      "Radcliffe\\Fake\\": "lib/Radcliffe/Fake",
+      "Radcliffe\\Theme\\": "lib/Radcliffe/Theme"
     }
   }
 }

@@ -4,7 +4,9 @@
  * Fake.php
  */
 
-namespace Fake;
+namespace Radcliffe\Fake;
+
+use Radcliffe\Fake\FakeInterface;
 
 /**
  * Fake class
@@ -21,7 +23,7 @@ class Fake implements FakeInterface {
   }
 
   /**
-   * Implements Fake\FakeInterface::add().
+   * Implements Fake\Fake\FakeInterface::add().
    */
   public function add(array $data) {
     try {
@@ -33,7 +35,7 @@ class Fake implements FakeInterface {
   }
 
   /**
-   * Implements Fake\FakeInterface::analyze().
+   * Implements Fake\Fake\FakeInterface::analyze().
    */
   public function analyze() {
     return array(
@@ -42,7 +44,7 @@ class Fake implements FakeInterface {
   }
 
   /**
-   * Implements Fake\FakeInterface::getData().
+   * Implements Fake\Fake\FakeInterface::getData().
    */
   public function getData() {
     return $this->data;

@@ -4,7 +4,7 @@
  * Theme.php
  */
 
-namespace Fake\Theme;
+namespace Radcliffe\Theme;
 
 /**
  * Theme class
