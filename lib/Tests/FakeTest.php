@@ -4,7 +4,7 @@
  * FakeTest.php
  */
 
-use Fake\Fake;
+use Radcliffe\Fake\Fake;
 
 /**
  * FakeTest

@@ -4,7 +4,7 @@
  * ThemeTest.php
  */
 
-use Fake\Theme\Theme;
+use Radcliffe\Theme\Theme;
 
 /**
  * ThemeTest
